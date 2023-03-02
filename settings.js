@@ -17,9 +17,9 @@ global.APIKeys = {
 }
 
 // setting 
-global.autoread = true // auto read message
+global.autoread = false // auto read message
 global.autobio = false //auto ganti bio
-global.anticall = true //anti call 
+global.anticall = false //anti call 
 global.userRegister = false
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 
@@ -31,23 +31,23 @@ global.language = english //change indonesia to english if you don't understand 
 
 // Other
 // Other
-global.botname = "Alphabot-Md" //namabot kalian
-global.ownername = "sandaru" //nama kalian
-global.myweb = "https://s.id/BOTGITHUB" //bebas asal jan hapus
-global.youtube = "https://youtube.com/@sandaru12" //bebas asal jan hapus
-global.myweb2 = "https://s.id/BOTGITHUB" //bebas
-global.email = "mdsandaru2@gmail.com" //bebas
+global.botname = "⊷┈━━━〔 ⏤͟͟͞͞ ◉𝐃Ξ𝐗𝐓Ξ𝐑◉ ͟͞⏤〕━━━┈⊷" //namabot kalian
+global.ownername = "⊷┈━━━〔 ⏤͟͟͞͞ ◉𝐃Ξ𝐗𝐓Ξ𝐑◉ ͟͞⏤〕━━━┈⊷" //nama kalian
+global.myweb = "https://www.facebook.com/profile.php?id=100078175149491" //bebas asal jan hapus
+global.youtube = "https://youtube.com/@DEXTER12209" //bebas asal jan hapus
+global.myweb2 = "https://github.com/kavishkaa9B" //bebas
+global.email = "wa.me/+94784153052" //bebas
 global.region = "Buddhist" //bebas
 global.timezone = 'Asia/Colombo' //  timezone wib
-global.premium = ['94764497078'] //premium user
-global.owner = ["764497078", "94764497078"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "764497078" // nomor wa kalian
-global.ownernomerr = "+94764497078" //nmr wa kalian
+global.premium = ['94784153052'] //premium user
+global.owner = ["94784153052", "94715564262"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "94715564262" // nomor wa kalian
+global.ownernomerr = "94784153052" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
-global.background_welcome = "https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
+global.background_welcome = "https://i.ibb.co/RvRzmFC/20230129-075211.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Alphabot-Md' //sticker wm ubah
+global.packname = '© ⊷┈━━━〔 ⏤͟͟͞͞ ◉𝐃Ξ𝐗𝐓Ξ𝐑◉ ͟͞⏤〕━━━┈⊷' //sticker wm ubah
 global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
@@ -68,9 +68,9 @@ global.dailyRPG = 'https://telegra.ph/file/17e857848a3afdb1c4fd8.jpg'
 global.hourlyRPG = 'https://telegra.ph/file/bcabf71c0f56207d1629e.jpg'
 global.kandangRPG = 'https://telegra.ph/file/89c3b3ec69d373da8f64b.jpg'
 global.kolamRGP = 'https://telegra.ph/file/0bc07117c78b2c9674b7d.jpg'
-global.mancingRPG = 'https://telegra.ph/file/1420d26b7f04f84993225.jpg'
-global.monthlyRPG = 'https://telegra.ph/file/7eadf65b95d9f7a3ecb46.jpg'
-global.weeklyRPG = 'https://telegra.ph/file/ffc85895d14db97931f0f.jpg'
+global.mancingRPG = 'https://i.ibb.co/RvRzmFC/20230129-075211.jpg'
+global.monthlyRPG = 'https://i.ibb.co/RvRzmFC/20230129-075211.jpg'
+global.weeklyRPG = 'https://i.ibb.co/RvRzmFC/20230129-075211.jpg'
 global.rpg = {
    emoticon(string) {
       string = string.toLowerCase()
@@ -122,7 +122,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⭔'
 global.mess = {
-   sukses: '🤗Done, Oke Desu~',
+   sukses: '✅Done, Oke Desu~',
    admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
    botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
    owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
@@ -130,7 +130,7 @@ global.mess = {
    private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
    bot: 'Fitur Khusus Pengguna Nomor Bot',
    errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-   wait: '⏳ *Loding*',
+   wait: '🛑 *Loding*',
    lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
    example1: 'Welcome @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
